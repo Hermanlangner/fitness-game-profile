@@ -36,3 +36,8 @@ msbuild.wrn
 #.paket
 paket-files/
 packages/
+
+#codecov
+Fitness.Game.Profile.UnitTests/coverage.json
+codecov
+Fitness.Game.Profile.UnitTests/coverage.opencover.xml

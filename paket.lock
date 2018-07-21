@@ -1,5 +1,6 @@
 NUGET
   remote: https://api.nuget.org/v3/index.json
+    coverlet.msbuild (2.1.1)
     dotnet-xunit (2.3.1) - clitool: true
       Microsoft.NETCore.App (>= 1.0) - restriction: >= netcoreapp1.0
     Libuv (1.10) - restriction: || (&& (>= netcoreapp1.0) (< netcoreapp1.1)) (&& (>= netcoreapp1.1) (< netcoreapp2.0) (< netcoreapp2.1))
