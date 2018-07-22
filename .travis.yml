@@ -8,4 +8,4 @@ addons:
 script:
  - ./build.sh
  - ./test.sh
- - sonar-scanner
+ - sonar-scanner -X
