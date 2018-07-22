@@ -1,5 +1,11 @@
 language: csharp
 dotnet: 2.1.300
+addons:
+  sonarcloud:
+    organization: "hermanlangner-github"
+    token:
+      secure: $SONAR_TOKEN
 script:
  - ./build.sh
  - ./test.sh
+ - sonar-scanner -X
