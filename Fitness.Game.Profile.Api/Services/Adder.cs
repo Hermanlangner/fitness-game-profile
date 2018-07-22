@@ -8,6 +8,7 @@ namespace Fitness.Game.Profile.Api.Services
              var r = x + y;
              r++;
             r = r - x;
+            r = r - x;
            return x + y; 
         }
     }
